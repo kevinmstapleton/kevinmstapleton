@@ -1,6 +1,6 @@
 <h1 align="center">Hi, I'm Kevin Stapleton</h1>
 <h3 align="center">A fullstack web dev and aspiring Go wizard</h3>
-
+<img src="https://github.com/kevinmstapleton/kevinmstapleton/blob/ceb1e022400ff4cad294b59d9ec92a68f1290697/text.svg"/>
 - I’m currently working on: **[SecureWorks' Telemetry Tool](https://github.com/secureworks/atomic-harness)**
 
 - I’m currently learning: **Next JS, Firebase, OSQuery, VSCode Extensions**
