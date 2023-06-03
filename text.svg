@@ -1,5 +1,12 @@
-<svg height="90" width="200">
-  <text  class = "center" x="10" y="20" style="fill:red;">Several lines:
+<svg   
+  class="text"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 24 150 28"
+  preserveAspectRatio="none"
+  shape-rendering="auto"
+     height="90" width="200">
+  <text  class = "center" x="10" y="20" style="fill:red;">
     <tspan x="10" y="45">First line.</tspan>
     <tspan x="10" y="70">Second line.</tspan>
   </text>
