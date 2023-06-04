@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/kevinmstapleton/kevinmstapleton/blob/723014c637b91e0c386a930e908e16aebb67b0cc/text.svg" width="300" height="100">
+  <img src="https://raw.githubusercontent.com/kevinmstapleton/kevinmstapleton/main/text.svg" width="300" height="100">
 </p>	
 <img src="https://raw.githubusercontent.com/matfantinel/matfantinel/master/waves.svg" width="100%" height="150">
 
