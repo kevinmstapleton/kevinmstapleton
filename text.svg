@@ -12,48 +12,80 @@
   </defs>
   <g class="parallax">
     <use xlink:href="#name" x="48" y="0" fill="rgba(149, 202, 202, 0.4)" fill-opacity="0.2" />
-    <use xlink:href="name" x="48" y="3" fill="rgba(0, 90, 202, 0.3)" fill-opacity="0.7"/>
+    <use xlink:href="#name" x="48" y="3" fill="rgba(0, 90, 202, 0.3)" fill-opacity="0.7"/>
     <use xlink:href="#name" x="48" y="5" fill="rgba(12, 164, 165, 0.1)" fill-opacity="0.3"/>
     <use xlink:href="#name" x="48" y="7" fill="rgba(12, 164, 165, 0.2)" fill-opacity="0.1"/>
   </g>
 
   <style>
-    .waves {
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      height: 100px;
-      min-height: 50px;
-      max-height: 100px;
-      border-radius: 25px;
-    }
-    .parallax>use {
-      animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;      
-    }
-    .parallax>use:nth-child(1) {
-      animation-delay: -2s;
-      animation-duration: 7s;
-    }
-    .parallax>use:nth-child(2) {
-      animation-delay: -3s;
-      animation-duration: 10s;
-    }
-    .parallax>use:nth-child(3) {
-      animation-delay: -4s;
-      animation-duration: 13s;
-    }
-    .parallax>use:nth-child(4) {
-      animation-delay: -5s;
-      animation-duration: 20s;
-    }
-    @keyframes move-forever {
-      0% {
-        transform: translate3d(-90px, 0, 0);
-      }
-      100% {
-        transform: translate3d(85px, 0, 0);
-      }
-    }
+   @import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+body {
+  text-align:center;
+  background:linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%);
+  color:#555;
+  font-family:'Roboto';
+  font-weight:300;
+  font-size:32px;
+  padding-top:40vh;
+  height:100vh;
+  overflow:hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  -webkit-transform: translate3d(0,0,0);
+}
+
+div {
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+}
+
+div:first-of-type {    /* For increasing performance 
+                       ID/Class should've been used. 
+                       For a small demo 
+                       it's okaish for now */
+  animation: showup 7s infinite;
+}
+
+div:last-of-type {
+  width:0px;
+  animation: reveal 7s infinite;
+}
+
+div:last-of-type span {
+  margin-left:-355px;
+  animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
+}
+
+
+p {
+  font-size:12px;
+  color:#999;
+  margin-top:200px;
+}
   </style>
 
 </svg>
