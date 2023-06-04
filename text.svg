@@ -11,9 +11,13 @@
     </g>
   </defs>
   <g class="name">
-    <use xlink:href="#name" x="48" y="0" fill="rgba(149, 202, 202, 0.4)" fill-opacity="0.2" />
-    <use xlink:href="#name" x="48" y="0" fill="rgba(255, 255, 255, 0.7)" fill-opacity="0.8" />
+    <use xlink:href="#name" x="58" y="0" fill="rgba(255, 255, 255, 0.7)" fill-opacity="0.8" />
   </g>
+
+  <g class="shadow">
+    <use xlink:href="#name" x="58" y="0" fill="rgba(25, 25, 25, 0.2)" fill-opacity="0.4" stroke-opactiy="0.2"/>
+  </g>
+
 
   <style>
   @import url('https://fonts.googleapis.com/css?family=Fira+Mono:400');
@@ -37,24 +41,24 @@
 
 @keyframes glitch{
   2%,64%{
-    transform: translate(2px,0) skew(0deg);
+    transform: translate(4px,0) skew(5deg);
   }
   4%,60%{
-    transform: translate(-2px,0) skew(0deg);
+    transform: translate(-4px,0) skew(0deg);
   }
   62%{
     transform: translate(0,0) skew(5deg); 
   }
 }
 
-.text>use:before,
-.text>use:after{
+.name>use:before,
+.name>use:after{
   content: attr(title);
   position: absolute;
   left: 0;
 }
 
-.text>use:before{
+.name>use:before{
   animation: glitchTop 1s linear infinite;
   clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
@@ -80,15 +84,14 @@
 
 @keyframes glitchBotom{
   2%,64%{
-    transform: translate(-2px,0);
+    transform: translate(-4px,0);
   }
   4%,60%{
-    transform: translate(-2px,0);
+    transform: translate(-4px,0);
   }
   62%{
     transform: translate(-22px,5px) skew(21deg); 
   }
 }
   </style>
-
 </svg>
