@@ -1,7 +1,7 @@
 <p align="center">
   <img src="./text.svg"  width="300" height="100">
 </p>	
-<img src="https://raw.githubusercontent.com/matfantinel/matfantinel/master/waves.svg" width="100%" height="150">
+<img src="./waves.svg" width="100%" height="150">
 
 # Hello!
 ![](https://komarev.com/ghpvc/?username=matfantinel&color=0ca4a5)
