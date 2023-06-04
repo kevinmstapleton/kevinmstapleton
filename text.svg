@@ -22,7 +22,7 @@
   <style>
   @import url('https://fonts.googleapis.com/css?family=Fira+Mono:400');
 
-.text{ 
+.name{ 
   display: flex;
   width: 100vw;
   height: 100vh;
@@ -95,7 +95,19 @@
 }
     
 .shadow>use{
+  animation: shadow 1.5s linear infinite;
+  clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+}
+    
+.shadow>use:after{
   animation: shadow 2s linear infinite;
+}
+    
+.shadow>use:before{
+  animation: glitchTop 1.5s linear infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
 }
     
 @keyframes shadow{
