@@ -11,7 +11,7 @@
     </g>
   </defs>
   <g class="name" title="name">
-    <use xlink:href="#name" x="58" y="0" fill="rgba(255, 255, 255, 0.7)" fill-opacity="0.8" />
+    <use xlink:href="#name" x="38" y="0" fill="rgba(255, 255, 255, 0.7)" fill-opacity="0.8" />
   </g>
 
 
@@ -73,12 +73,12 @@
 }
 
 .name:after{
-  animation: glitchBotom 1.5s linear infinite;
+  animation: glitchBottom 1.5s linear infinite;
   clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
   -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
 }
 
-@keyframes glitchBotom{
+@keyframes glitchBottom{
   2%,64%{
     transform: translate(-2px,0);
   }
