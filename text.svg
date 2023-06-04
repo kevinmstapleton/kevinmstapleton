@@ -2,7 +2,7 @@
   class="text"
   xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink"
-  viewBox="0 24 150 28"
+  viewBox="0 0 650 98"
   preserveAspectRatio="none"
   shape-rendering="auto"
 >
@@ -12,7 +12,7 @@
   </defs>
   <g class="parallax">
     <use xlink:href="#name" x="48" y="0" fill="rgba(149, 202, 202, 0.4)" fill-opacity="0.2" />
-    <use xlink:href="name" x="48" y="3" fill="rgba(149, 202, 202, 0.3)" fill-opacity="0.7"/>
+    <use xlink:href="name" x="48" y="3" fill="rgba(0, 90, 202, 0.3)" fill-opacity="0.7"/>
     <use xlink:href="#name" x="48" y="5" fill="rgba(12, 164, 165, 0.1)" fill-opacity="0.3"/>
     <use xlink:href="#name" x="48" y="7" fill="rgba(12, 164, 165, 0.2)" fill-opacity="0.1"/>
   </g>
