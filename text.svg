@@ -535,7 +535,7 @@ article {
     left: 0;
   }
   to {
-    left: -140px;
+    left: -280px;
   }
 }
 
@@ -544,7 +544,7 @@ article {
     left: 0;
   }
   to {
-    left: -140px;
+    left: -280px;
   }
 }
 
@@ -565,10 +565,10 @@ article {
 
 @-webkit-keyframes urmove {
   from {
-    right: 0;
+    right: 0x;
   }
   to {
-    right: -140px;
+    right: -280px;
   }
 }
 
@@ -577,7 +577,7 @@ article {
     right: 0;
   }
   to {
-    right: -140px;
+    right: -280px;
   }
 }
 
@@ -605,9 +605,10 @@ article {
 <div class="container">
 <section class="early">
 <article>
+  <marquee behavior="scroll" direction="left">Full Stack Developer</marquee>
    <p class="example-right">Full Stack Developer</p>
 </article>
-<article>
+<article align="center">
   <a class ="example-left" href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://logos-world.net/wp-content/uploads/2021/08/Android-Logo.png" alt="android" width="40" height="40"/> </a>
     <p class="example-left">Android Apprentice</p>
   
