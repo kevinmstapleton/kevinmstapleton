@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./text.svg"  width="80%" height="20%">
+  <img src="./text.svg"  width="100%" height="100%">
 </p>	
 <img src="./waves.svg" width="100%" height="150">
 
