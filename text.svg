@@ -114,7 +114,7 @@ section {
 }
 
 .paths {
-  animation: paths 8s step-end infinite;
+  animation: paths 16s step-end infinite;
 }
 
 @keyframes paths {
@@ -371,7 +371,7 @@ section {
 
 .movement {
   position: relative;
-  animation: movement 8s step-end infinite;
+  animation: movement 16s step-end infinite;
 }
 
 @keyframes movement {
@@ -402,7 +402,7 @@ section {
 }
 
 .opacity {
-  animation: opacity 5s step-end infinite;
+  animation: opacity 10s step-end infinite;
 }
 
 @keyframes opacity {
@@ -441,7 +441,7 @@ section {
 }
 
 .font {
-  animation: font 7s step-end infinite;
+  animation: font 14s step-end infinite;
 }
 
 @keyframes font {
@@ -477,16 +477,16 @@ section {
 }
 
 .glitch span {
-  animation: paths 5s step-end infinite;
+  animation: paths 10s step-end infinite;
 }
 
 .glitch::before {
-  animation: paths 5s step-end infinite, opacity 5s step-end infinite,
+  animation: paths 10s step-end infinite, opacity 5s step-end infinite,
     font 8s step-end infinite, movement 10s step-end infinite;
 }
 
 .glitch::after {
-  animation: paths 5s step-end infinite, opacity 5s step-end infinite,
+  animation: paths 10s step-end infinite, opacity 5s step-end infinite,
     font 7s step-end infinite, movement 8s step-end infinite;
 }
 
