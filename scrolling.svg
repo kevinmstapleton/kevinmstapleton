@@ -93,18 +93,19 @@ article {
 <section class="early">
 
 <article>
-   <p class="example-right">Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text Your scrolling text goes here Your scrolling text goes here </p>
+   <p class="example-right">Full Stack Developer</p>
 </article>
 <article>
-    <p class="example-left">Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your</p>
+  <a class ="example-left" href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a>
+    <p class="example-left">Android Apprentice</p>
   
-   <p class="example-right">Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text Your scrolling text goes here Your scrolling text goes here </p>
+   <p class="example-right">React</p>
   
   </article>
 
 
 <article>
-<marquee behavior="scroll" direction="left">Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here</marquee>
+<marquee behavior="scroll" direction="left">Secureworks Intern</marquee>
 
 <marquee behavior="scroll" direction="right">Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here </marquee>
 </article>
