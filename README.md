@@ -1,7 +1,7 @@
 <p align="center">
   <img src="./text.svg"  width="600" height="100%">
 </p>	
-<img src="./waves.svg" width="100%" height="100%">
+<img src="./scrolling.svg" width="100%" height="100%">
 
 # Hello!
 
