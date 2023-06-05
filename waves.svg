@@ -1,47 +1,121 @@
-<svg fill="none" viewBox="0 0 600 300" width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 600 300" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
   <foreignObject>
    <div xmlns="http://www.w3.org/1999/xhtml">
+
     <style>
-     #scroll-text {
-  -moz-transform: translateX(100%);
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
-  
-  -moz-animation: my-animation 15s linear infinite;
-  -webkit-animation: my-animation 15s linear infinite;
-  animation: my-animation 15s linear infinite;
+article {
+  text-color: black;
+  max-width: 600px;
+  margin: 1em auto;
+  overflow: hidden;
+  position: relative;
+  min-height: 4em;
 }
 
-@-moz-keyframes my-animation {
-  from { -moz-transform: translateX(100%); }
-  to { -moz-transform: translateX(-100%); }
+.example-left {
+  white-space: nowrap;
+  position: absolute;
+  text-transform: uppercase;
 }
 
-/* for Chrome */
-@-webkit-keyframes my-animation {
-  from { -webkit-transform: translateX(100%); }
-  to { -webkit-transform: translateX(-100%); }
+.example-left {
+  -webkit-animation: mymove 8s linear infinite; /* Safari 4.0 - 8.0 */
+  white-space: nowrap;
+  animation: mymove 8s linear infinite alternate;
 }
 
-@keyframes my-animation {
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
   from {
-    -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
+    left: 0;
   }
   to {
-    -moz-transform: translateX(-100%);
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
+    left: -140px;
   }
+}
 
+@keyframes mymove {
+  from {
+    left: 0;
+  }
+  to {
+    left: -140px;
+  }
+}
+
+
+.example-right {
+  white-space: nowrap;
+  position: absolute;
+  top:2em;
+  opacity: .4;
+  text-transform: uppercase;
+}
+
+.example-right {
+  -webkit-animation: urmove 8s linear infinite; /* Safari 4.0 - 8.0 */
+  white-space: nowrap;
+  animation: urmove 8s linear infinite alternate;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes urmove {
+  from {
+    right: 0;
+  }
+  to {
+    right: -140px;
+  }
+}
+
+@keyframes urmove {
+  from {
+    right: 0;
+  }
+  to {
+    right: -140px;
+  }
+}
+
+
+@keyframes early 
+{ from { opacity:1; } to { opacity:0; } }
+
+.early {
+    color: black;
+    animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animation ease-in and repeat it only 1 time */
+
+    animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+
+    animation-duration:1s;
+    animation-delay: 1.5s
+}
     </style>
-     
-    <div id="scroll-container">
-      <div id="scroll-text">This is scrolling text.</div>
-    </div>
-   
-    </div>
+
+<section class="early">
+
+<article>
+   <p class="example-right">Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text Your scrolling text goes here Your scrolling text goes here </p>
+</article>
+<article>
+    <p class="example-left">Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your</p>
+  
+   <p class="example-right">Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text Your scrolling text goes here Your scrolling text goes here </p>
+  
+  </article>
+
+
+<article>
+<marquee behavior="scroll" direction="left">Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here</marquee>
+
+<marquee behavior="scroll" direction="right">Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here </marquee>
+</article>
+
+  <article>
+    <p class="example-left">Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your</p> 
+  </article>
+  </section>
+ </div>
         
-  </foreignObject>
+</foreignObject>
 </svg>
