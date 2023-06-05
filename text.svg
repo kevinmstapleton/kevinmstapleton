@@ -597,6 +597,30 @@ article {
       </style>
 
       <div class="hero-container">
+        <section class="early">
+
+<article>
+   <p class="example-right">Full Stack Developer</p>
+</article>
+<article>
+  <a class ="example-left" href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://logos-world.net/wp-content/uploads/2021/08/Android-Logo.png" alt="android" width="40" height="40"/> </a>
+    <p class="example-left">Android Apprentice</p>
+  
+   <p class="example-right">React</p>
+  
+  </article>
+
+
+<article>
+<marquee behavior="scroll" direction="left">Secureworks Intern</marquee>
+
+<marquee behavior="scroll" direction="right">Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here </marquee>
+</article>
+
+  <article>
+    <p class="example-left">Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your</p> 
+  </article>
+  </section>
         <div class="environment"></div>
         <h2 class="hero glitch layers" data-text="Fullstack Dev"><span>Kevin Stapleton</span></h2>
       </div>
