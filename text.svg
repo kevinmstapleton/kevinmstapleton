@@ -592,10 +592,16 @@ article {
 
     animation-duration:1s;
     animation-delay: 1.5s
+.container {
+   padding: 0px;
+   margin: 0px;
+   position: relative;
 }
-
-      </style>
+        
+}
+</style>
       
+<div class="container">
 <section class="early">
 <article>
    <p class="example-right">Full Stack Developer</p>
@@ -607,24 +613,21 @@ article {
    <p class="example-right">React</p>
   
   </article>
-
-
-<article>
-<marquee behavior="scroll" direction="left">Secureworks Intern</marquee>
-
-<marquee behavior="scroll" direction="right">Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here </marquee>
-</article>
       <div class="hero-container">
 
         <div class="environment"></div>
         <h2 class="hero glitch layers" data-text="Fullstack Dev"><span>Kevin Stapleton</span></h2>
       </div>
-  
+<article>
+<marquee behavior="scroll" direction="left">Secureworks Intern</marquee>
+
+<marquee behavior="scroll" direction="right">Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here </marquee>
+</article>
   <article>
     <p class="example-left">Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your</p> 
   </article>
   </section>
-
+      </div>
     </div>
   </foreignObject>
 </svg>
