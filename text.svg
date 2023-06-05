@@ -114,7 +114,7 @@ section {
 }
 
 .paths {
-  animation: paths 5s step-end infinite;
+  animation: paths 8s step-end infinite;
 }
 
 @keyframes paths {
@@ -512,7 +512,7 @@ section {
 
       <div class="hero-container">
         <div class="environment"></div>
-        <h2 class="hero glitch layers" data-text="Fullstack Web Dev"><span>Kevin Stapleton</span></h2>
+        <h2 class="hero glitch layers" data-text="Fullstack Dev"><span>Kevin Stapleton</span></h2>
       </div>
     </div>
   </foreignObject>
