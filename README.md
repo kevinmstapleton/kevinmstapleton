@@ -4,7 +4,6 @@
 <img src="./waves.svg" width="100%" height="150">
 
 # Hello!
-![](https://komarev.com/ghpvc/?username=matfantinel&color=0ca4a5)
 
 <ul>
 <li>Front-End Web Developer</li>
