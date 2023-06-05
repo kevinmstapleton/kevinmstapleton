@@ -96,7 +96,7 @@ article {
    <p class="example-right">Full Stack Developer</p>
 </article>
 <article>
-  <a class ="example-left" href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a>
+  <a class ="example-left" href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://logos-world.net/wp-content/uploads/2021/08/Android-Logo.png" alt="android" width="40" height="40"/> </a>
     <p class="example-left">Android Apprentice</p>
   
    <p class="example-right">React</p>
