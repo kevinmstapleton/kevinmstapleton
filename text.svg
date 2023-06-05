@@ -596,8 +596,7 @@ article {
 
       </style>
 
-      <div class="hero-container">
-        <section class="early">
+              <section class="early">
 
 <article>
    <p class="example-right">Full Stack Developer</p>
@@ -621,6 +620,8 @@ article {
     <p class="example-left">Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your</p> 
   </article>
   </section>
+      <div class="hero-container">
+
         <div class="environment"></div>
         <h2 class="hero glitch layers" data-text="Fullstack Dev"><span>Kevin Stapleton</span></h2>
       </div>
