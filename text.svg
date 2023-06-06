@@ -504,10 +504,9 @@ section {
   bottom: 0;
   opacity: 0.5;
   filter: blur(5px);
-  background: url();
   background-size: cover;
   background-repeat: no-repeat, repeat;
-  background-color: #cccccc;
+  background-color: #40c2ac;
 }
         
 article {
