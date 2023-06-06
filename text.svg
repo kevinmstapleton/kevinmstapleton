@@ -22,7 +22,7 @@ section {
 }
 
 .hero {
-  font-size: clamp(60px, 15vw, 1500px);
+  font-size: clamp(50px, 12vw, 150px);
   line-height: 1;
   display: inline-block;
   color: #fff;
