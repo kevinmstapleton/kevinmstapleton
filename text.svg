@@ -22,7 +22,7 @@ section {
 }
 
 .hero {
-  font-size: clamp(40px, 10vw, 100px);
+  font-size: clamp(30px, 8vw, 80px);
   line-height: 1;
   display: inline-block;
   color: #fff;
@@ -694,7 +694,7 @@ article {
   <div class="hero-container">
     <div class="environment"></div>
            <h2 class="hero glitch layers" data-text="Fullstack Dev"><span>Kevin Stapleton</span></h2>
-           <h4 class="hero glitch-2 layers" data-text="Summer 2023"><span>Secureworks Intern</span></h4>
+           <p class="hero glitch-2 layers" data-text="Summer 2023"><span>Secureworks Intern</span></p>
   </div>
 </section>
       <article>
