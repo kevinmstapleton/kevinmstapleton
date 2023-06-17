@@ -480,6 +480,20 @@ section {
   animation: paths 10s step-end infinite;
 }
 
+.glitch-2 span {
+  animation: paths 6s step-end infinite;
+}
+
+.glitch-2::before {
+  animation: paths 14s step-end infinite, opacity 5s step-end infinite,
+    font 3s step-end infinite, movement 14s step-end infinite;
+}
+
+.glitch-2::after {
+  animation: paths 14s step-end infinite, opacity 5s step-end infinite,
+    font 4s step-end infinite, movement 12s step-end infinite;
+}
+
 .glitch::before {
   animation: paths 10s step-end infinite, opacity 5s step-end infinite,
     font 8s step-end infinite, movement 10s step-end infinite;
@@ -492,7 +506,7 @@ section {
 
 .hero-container {
   position: relative;
-  padding: 200px 0;
+  padding: 100px 0;
   text-align: center;
 }
 
@@ -517,7 +531,8 @@ section {
   background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxANDw8NDQ4QCAcIEA0HBwcHEBAICQcNFREWFhURFRMYHSggGBolGxMTITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OFxAPFysdFR0tKy0tLS0tLS0rLS0rKystLSstNy0rLS0tNy0tLSstKystLS0rKy0tKysrKysrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAADBAECBQAGB//EAC8QAAIBAgMHBAICAwEBAAAAAAABAgNRESFhBBITMUGRoSJScbEUgcHwMmLh0YL/xAAaAQACAwEBAAAAAAAAAAAAAAADBAABAgUG/8QAHhEAAwEBAQEBAAMAAAAAAAAAAAECAxESEyEEMXH/2gAMAwEAAhEDEQA/APsPEj7l3R3Ej7l3Rm8eP9RPGj/UUOfM0eIvcu6O4kfcu6M7jR/qI40f6iFeDS4kfcu6O4kfcu6M3jx/qIdeP9RfDLg0uLH3LujuLH3LujL48dexV1438F8MuTV4sfcu6IdWPuXdGU9ojd9ir2iN32NeTDRrcWPuXdEcaPuXdGT+RG77FfyY69i/Jhm2qsfcu6LqrH3LujGW0Rx69gsK8cf+E8mGzWVRe5dyymrruZsK8f6gkayL8g3Y9vq67k76uu4kqqJ4qK8mfY3vq67nb6uu4o6iK8RGGjXscc1ddzt9XXcSdREOqjDJ7HeIrruRxFddxHiojjIG6L9D2+rruSpq67me6yJVZGHZfo0FNXXcspq67iEaqLqqivZpMf3lddzlJXFFURdTRn6GxpSVyUxeMkEjIr6mkguJGOpTeKOaJ9S1IRyVyrmrruAlUWAKdVG1oEUDLmrruVdRe5d0JyqoFKtHH/hpWbWZl/kq3kn8jQzuO7LyTx3ZeRhD/wAzR/I0Ie0qwhx3ZeSrruy8muA6g0PyVbyVe0q3kQ47svJV7Q7LyaSBVI+9pVvJR7UreRB7Q7LyDe0uy8m1IFo0XtSt5Kval7X3M17S7LyVltLsvJtSCZpPal7X3K/lr2vuZb2qVl5Kva5WXn/00oBNm7HaVjy8hobSseRjR2l4rJeRmnXePJeSeQFM16e0c8hiFbLkZFKu88l0GqVZ4dOZPIvdGgquhPF0E1VehbiPQy5Bqxt1dCrq6C7qPQq6r0A0jfoZdbQo62gu6r0KOq9BejXoZdfQq6+gq6z0KOs9AFUX6G3tGhMK+gi6z0JhWegCrNKjSjW0CKtoZ0Kzw6Bo1Xh0BuwqZoqroEjUz5CSqPQLCbxMPQKh6EwsJidOYenLIw9QsoNvApVOZO8AlPn+ylqFmSJ1MuQCdXQipUeAtVqvDoGmxiYLzraAZ18+QGrVegtUrvHkg80GnMylUdy3EdzNU9fJbf18nSR0XmPuo7kOpK4i56+Srnr5NpC9wPOpK5SVWVxTf18g5Tz5+TaQtSGnVlf6BurK/wBCbnr5Aynlz8hUhah+VWV/oFOtK/0ITqf7eQU5/wC3kIpFqNCVeV/oG68r/RnSnr5Buevk2pAUz0MK88V6uug7Rqyx5/R52nUzXq63HqFT1f5dH1J5F6Z6CjUeedhqjUeHPqYmzT5+q3UeoTy59bk8ielGrGbw5hN93EYSyWfkMnqYuQCsYcncq5u4JvUHJ6iloKqDSm7g5TePMDOWpRy1FLNegzm7lHN3AuWoNy1FLZtMYlN3OhN3FHLUtCWvkTuzaY/Cbw5hozeHMQhLLn5DRllzBOw0s0ozeKzGISePMzoyzWfkYpvPmCdjEmjSk8xilLL9iFF8xui8v2CrQYgYTFZyef7C4ic3zzuZnT9GYQOrJ4PO32KVpvBZ9S1WXpedvsS2iWSz63HIsbiDq1R5ZilWo8eZWvPNZ+ROrPPn5GooajMx1UV/DCKrG/hiCq6F1V0O3H6jpVmOuor/AGV4iv8AYu6hG+ESEtYGd9X+wU6ix5/YNzBTqZhEhLRFpVFnnfowEqiw5/ZSU+YJyCpCVl5TV/spKSv9g5SKSmFSFLYRyV/sG5q/2DcyjmbSFaY/CaxWfXUd2erHe59H0ZkxqZoZoVM/0y+AaZu7LVjnnbozS2Wot3n1d9DA2SsvVlb+TU2Sr6eXV/SK4JbGzTmsEMKSM+lP0oaUuRjRfglNfrDykgcpIiTBzkI6DCZM5IFKSInIHKQhozaZLkijmijkUcjna2ERdyRMJIC5ExkJV+m0xuE1gHjNYCUZBoyyA02GmjQjNYoZpSWIhCWaGqUsxeraG4NGhJZjlCWT+f4M6hLmO7PLJ/P8IBWo3CD4iNSSz/Y25GfVl/l+yo0/RzJClea3X+vsQ2iawWfXUPXqel/r7M7aquSy6nQyofzkHXqLFZ9LMRrVFvPO3RltpqrFZdBGtWWPKw9nQ7nmZnECRqZr9CqmwkZPFfKPQ5P8Og5HN47eBpk4hkIbzws5ApyzL4gpvMJJzNQbkCci7YJsKjn6MrKQOUiZsHJhUJaMiUijkdJlGwiQnTDxnmhilPMTUsw1KTxJwwzT2Wpzyt/Jq7HV9PLq/pGHs03n+jU2Ob3X8v6RBXVG5Qn6UPRfL9Gbs0vRH4/kfi+X6M6f0cyfymGkwU2Xk8gVRnN1GkUmwUpZlpsFJ5nM2YRFXIq2c2VxOXpXWFRzZMWVbOTB8J0NFhoyyFosNF5AqQWWOwlmhqlLMRg818jVF5ieiHM6H6EuY/szyfz/AAjO2d8/0P7M8n8/wjn6vjOhkFbM6rP/AC/+h6TzMutJ+r/6M5V+s6GSENoqel/r7RmbVUyXyObRN7j/AF9oy9rm8F8/wdbI6WUi201M1l0Ea1X1PKwXaZvFfAlVm8ex0Mx/ORNPUmMs1n1XUFiRiehxYx7Q/CWfPyE3tTOotY9xqMlcc4I/yWHx1ByeZG8gcnmaSOTqRJ6gZPLmS3zAyeQZHO0Jk9QU3qROSBzkgqENDpPUriVbIxNoWaDJ6hqTz5iiYWnJYlg2jQoS552NHZJenn1fXRGRQks/0O7PNYc+pOC2r/D0Ozz9Ec+lzShPlnbqecpTW6szVp1I+nOxWi/Dj1fKf+mrKWXPyBnLXyClNYcwU5q5ytRpWEnLXyDlLUFOauDckczZG1YVvUrvagXJEbyObU/oX2Gx1JT1F95XJUkZ8k9jMXqFTy5icZINGSwMVISbHoPNZ9RujLPmZ0ZLFDNKSxFdI/BzOzW2eXPOw/sssnn1/hGNs81nnYdoVYpc+upzds2dHGhmrP1PPyZlWf8Aln7upNerHeef3YzatWPqzvcvHE6mVAtol6HnbrqjL2qWSz63DV6i3Xnb7M/aZrBZ9Tp5ZnVxsDtMs1n0uI1ZZ87dQu0TWKzE6sljzH85OhnaF1Nak7yFlV0LqpodrIU+oeMsw1OotRRT0LwqaD8PoLTTqHVNalJTWPUFGroDnVz5BUhDQs5rPmBlNYdSkq3PIC6ugRIQ0CSmtQcprUHOroDlV0CJCNhXNakcRagXU0K7+hsWaGVNahITWPUUU9AkamhYOkP0aiz59ByjVWHXmZVKrzyGqNXLl1LE9jYpVlurmadOusY8+ljAp1slkP09ozWVuoHSjlax+m3LaFhyfgFPaY2fj/0SltOX+PkFPaNPJz9ULu7HntCfR+Crrqz8CH5OHTyUe1f6+TnaybnVmjxlqV4q1EfydPJPH08iTzDfVjvFWpyqrUS4+nklVtCvmWtGaEaq1CxqrDqZ0a2gWNfLl5MVmHimakaixXMYp1lj1MuO0Z8vIaG0Z8vIteY/l016VdZ5PwMU9pWHJ+DGhtOnkNT2nLl5FLxOnixurtC3nk/BnVK6z59bEVdpe88vIhU2jnlfqbjLh08qOrVluvn0tcR2iqsFz5nVa/peVvsTr18ll1HM4OjnZWvUWK5itSax6nVqvLIXnUz5DUyOxqKKoy6qMS3ndl1J3Z0oEfoPRmwimxCMnjzYWEndjUMw9ByNRlJzeIKMndlJN482MzQG7LOTBSeRDbBSbw6m1YldFpSKSkUbZSTZtWKUXcicQOLIxepPYPgwpF4sXTZeLZPZhyNQkMUpvD9iMWw0G8ObJ9BbWDSp1HghyFV5foyYSeCzY1GTyzfQDViGmRqOqwc6rFXN3fcq5u7FbYp8Rh1GRvsW3ndkOTuxPQiwQ3xGdxWKbzuzt53YDhr4jfFZaNViW87slSd2ThpZfpoRqsIqrM6M3d9y6m7vuDcjEZ8NSNaWP/A0a0seZlKbu+4SNR3fcDUD2cmtGtK/gLCvK/hGRGo/c+7CRqP3PuwNZj2f4O1K8sXn4EZ1pZ536AqlSWL9T7sTnN55vr1Zc5judcCVa0sHnbpqK1qrwKVJvB5vuK1Zu7DzA5Fl6tR5AJ1HiDqSd2BlJ482GmRidRPFEpq4vxEdvodQh9RuMldF4zV0JKoiyqILLJ9EaEKkborKcceaE1VWpV1VqFVGKsac1dA3NXQs6q1BuqtTaoBTGpTV0Uc1dCzqLUrxEX6AtDLkro7eV0Lb6O30T0ZG1JXLqauhLiosqq1J6MsejNXQWE1dGfCogkai1M+zFLqNKM1hzQxGccs10MqNVYdQ8ayy59DLoWrM03ON0Rvq6EnWWpHGWoGmA+Q65q6Ic43QlxlqQ6q1AUi1mPb8bonfV0I8Vak8Zag+G/mPb6ujlNXQlxlqTxlqVw18h1TV0W31dCPGWpPGWpTRtZmiqkbouqkbozeOtSVXWplyGmeGpGpG6LxqxujKW0R1LLaI6mHAaR6pUji80LSqRzzXUXlXWPUBKus+ZFAxNDEprDmgFSSuBlXWHUFOstTakKrCzkrg5SQGdValHUQRSEWgvvE7+gHf+Dt/4DCvQ3E0JVTQBvfB2/8ABpMnQ+/oQ56At96EOfwa6V6YRyKFd/4I3/g16K6WZBG8RvE9GWy2JGJXeOxL9GGXxJTB7xZSJ6K4EjPDoEjU0AbxKl8FejPBlVdPIRVtPInxHoW4r0M9Kcoe/I08lXtGnkT4z0O4r0KZnyhz8jTydx9PIpxHoTxHoYaLUIb4+nknj6eRTiPQ7iPQrhagb4+nknj6eRTiPQ5VHoVw15G/yNPJP5GnkT4j0J4j0K4TyOfkaeSfyNPIlxHodxXoThrg8to08kraf9fIhxXoTxnoV5LQ69p/18gnX08i3FehXiPQnlG0w7q6eSjq6AuI9CHP4L4X0I56EOegJz+CN/4Jw16Fd93O33c442C6Tvu52+7kHEIdvu52+7nHEIdvu5287nHEIdvO528zjiEO3mdvM44vpDt5nbzuccTpDt93O33c44oh2+7k77uQcQnCd93O33cg4hXCeI7ncR3OOIXw7iO53Flc44hDuLK53Flc44hCeLK53Flcg4hCeLK53Flcg4hCeLK53Flcg4hCeLK5HElc44hDuI7ncR3OOIQ7iO52+7kHEIf/2Q==");
   background-repeat: no-repeat, repeat;
   background-color: #40c2ac;
-  filter: blur(50px)
+  filter: blur(50px);
+  justify-items: center;
 }
         
 article {
@@ -526,6 +541,7 @@ article {
   overflow: hidden;
   position: relative;
   min-height: 4em;
+  color: white;
 }
       
 
@@ -541,10 +557,23 @@ article {
   animation: mymove 8s linear infinite alternate;
 }
 
+.example-left-2 {
+  white-space: nowrap;
+  position: absolute;
+  text-transform: uppercase;
+  bot:2em;
+}
+
+.example-left-2 {
+  -webkit-animation: mymove-2 14s linear infinite; /* Safari 4.0 - 8.0 */
+  white-space: nowrap;
+  animation: mymove-2 14s linear infinite alternate;
+}
+
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes mymove {
   from {
-    left: 0;
+    left: 280px;
   }
   to {
     left: -280px;
@@ -553,19 +582,45 @@ article {
 
 @keyframes mymove {
   from {
-    left: 0;
+    left: 280px;
   }
   to {
     left: -280px;
   }
 }
 
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove-2 {
+  from {
+    left: 0px;
+  }
+  to {
+    left: -480px;
+  }
+}
+
+@keyframes mymove-2 {
+  from {
+    left: 0px;
+  }
+  to {
+    left: -480px;
+  }
+}
 
 .example-right {
   white-space: nowrap;
   position: absolute;
   top:2em;
-  opacity: .4;
+  opacity: .6;
+  text-transform: uppercase;
+}
+
+.example-right-2 {
+  white-space: nowrap;
+  position: absolute;
+  top:2em;
+  opacity: .6;
   text-transform: uppercase;
 }
 
@@ -575,9 +630,25 @@ article {
   animation: urmove 8s linear infinite alternate;
 }
 
+.example-right-2 {
+  -webkit-animation: urmove 12s linear infinite; /* Safari 4.0 - 8.0 */
+  white-space: nowrap;
+  animation: urmove 12s linear infinite alternate;
+}
+
+.current {
+    font-size: 1.5rem;
+    color: white;
+    text-shadow:
+        0.05em 0 0.1em black,
+        0 0.05em 0.1em black,
+        -0.05em 0 0.1em black,
+        0 -0.05em 0.1em black;
+}
+
 @-webkit-keyframes urmove {
   from {
-    right: 0x;
+    right: 380px;
   }
   to {
     right: -280px;
@@ -586,7 +657,7 @@ article {
 
 @keyframes urmove {
   from {
-    right: 0;
+    right: 380px;
   }
   to {
     right: -280px;
@@ -611,29 +682,28 @@ article {
 <section class="early">
 <article>
   <marquee behavior="scroll" direction="left">Full Stack Developer</marquee>
-   <p class="example-right">Full Stack Developer</p>
+   <p class="example-right-2">Junior Programmer</p>
 </article>
 <article align="center">
-  <a class ="example-left" href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://logos-world.net/wp-content/uploads/2021/08/Android-Logo.png" alt="android" width="40" height="40"/> </a>
-    <p class="example-left">Android Apprentice</p>
+    <marquee behavior="scroll" direction="right">Android Apprentice</marquee>
   
-   <p class="example-right">React</p>
+   <p class="example-right">Vanilla JS</p>
   
   </article>
   <section>
   <div class="hero-container">
     <div class="environment"></div>
            <h2 class="hero glitch layers" data-text="Fullstack Dev"><span>Kevin Stapleton</span></h2>
+           <h4 class="hero glitch-2 layers" data-text="Summer 2023"><span>Secureworks Intern</span></h4>
   </div>
 </section>
-<article>
-<marquee behavior="scroll" direction="left">Secureworks Intern</marquee>
+      <article>
+    <p class="example-left-2">Node.js - React - Git - Pandas - Kotlin - Go - Node.js - React - Git - Pandas - Kotlin - Go - Node.js - React - Git - Pandas - Kotlin - Go - Node.js - React - Git - Pandas - Kotlin - Go - Node.js - React - Git - Pandas - Kotlin - Go - Node.js - React - Git - Pandas - Kotlin - Go</p>
 
-<marquee behavior="scroll" direction="right">Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here </marquee>
-</article>
-  <article>
-    <p class="example-left">Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your scrolling text goes here Your</p> 
   </article>
+<article>
+            <marquee behavior="scroll" direction="left">University of Texas at Dallas Class of 2024</marquee>
+</article>
   </section>
       </div>
   </foreignObject>
