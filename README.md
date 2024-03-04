@@ -3,11 +3,13 @@
 </div>
 <br/>
 <div>
-  <h1>Check what  I am currently working on!</h3>
+  <h1>Check out what I am currently working on!</h3>
   <ul>
+    <li>
     <a href="https://utd-ride-visualizer.vercel.app/">
-      <h2>> UTD Ride Visualizer</h4>
+       UTD Ride Visualizer
     </a>
+      </li>
   </ul>
 </div>
 
