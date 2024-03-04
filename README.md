@@ -5,7 +5,7 @@
 <div>
   <h1>Check what  I am currently working on!</h3>
   <ul>
-    <a target="https://utd-ride-visualizer.vercel.app/">
+    <a href="https://utd-ride-visualizer.vercel.app/">
       <h2>> UTD Ride Visualizer</h4>
     </a>
   </ul>
