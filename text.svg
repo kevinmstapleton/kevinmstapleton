@@ -682,7 +682,7 @@ article {
 <section class="early">
 <article>
   <marquee behavior="scroll" direction="left">Full Stack Developer</marquee>
-   <p class="example-right-2">SE 1</p>
+   <p class="example-right-2">SE I</p>
 </article>
 <article align="center">
     <marquee behavior="scroll" direction="right">Android Apprentice</marquee>
