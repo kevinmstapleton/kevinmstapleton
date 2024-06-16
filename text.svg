@@ -682,7 +682,7 @@ article {
 <section class="early">
 <article>
   <marquee behavior="scroll" direction="left">Full Stack Developer</marquee>
-   <p class="example-right-2">Junior Programmer</p>
+   <p class="example-right-2">SE 1</p>
 </article>
 <article align="center">
     <marquee behavior="scroll" direction="right">Android Apprentice</marquee>
@@ -698,7 +698,7 @@ article {
   </div>
 </section>
       <article>
-    <p class="example-left-2">Node.js - React - Git - Pandas - Kotlin - Go - Node.js - React - Git - Pandas - Kotlin - Go - Node.js - React - Git - Pandas - Kotlin - Go - Node.js - React - Git - Pandas - Kotlin - Go - Node.js - React - Git - Pandas - Kotlin - Go - Node.js - React - Git - Pandas - Kotlin - Go</p>
+    <p class="example-left-2">Node.js - React - Angular - Git - Pandas - Kotlin - Go - C++ - Node.js - React - Angular - Git - Pandas - Kotlin - Go - C++ -Node.js - React - Angular - Git - Pandas - Kotlin - Go - C++ -Node.js - React - Angular - Git - Pandas - Kotlin - Go - C++ -Node.js - React - Angular - Git - Pandas - Kotlin - Go - C++</p>
 
   </article>
 <article>
