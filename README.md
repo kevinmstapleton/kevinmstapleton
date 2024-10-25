@@ -9,6 +9,8 @@
     <a href="https://utd-ride-visualizer.vercel.app/">
        UTD Ride Visualizer
     </a>
+    </li>
+    <li>
       <a href="https://vercel.com/api/toolbar/link/uplift-demo.vercel.app?via=project-dashboard-alias-list&p=1&page=/">
         (Tentative Name) WeightLifting + Climbing + Social Media PWA
       </a>
