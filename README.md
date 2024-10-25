@@ -11,7 +11,7 @@
     </a>
     </li>
     <li>
-      <a href="https://vercel.com/api/toolbar/link/uplift-demo.vercel.app?via=project-dashboard-alias-list&p=1&page=/">
+      <a href="https://uplift-kevin-custom-projects.vercel.app/login">
         (Tentative Name) WeightLifting + Climbing + Social Media PWA
       </a>
       </li>
